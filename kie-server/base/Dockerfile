@@ -20,7 +20,7 @@ ENV JAVA_OPTS -Xms256m -Xmx1024m -Djava.net.preferIPv4Stack=true -Dfile.encoding
 USER root
 
 ###### INSTALL PACKAGES ######
-RUN yum install -y net-tools
+#RUN yum install -y net-tools
 
 ##### SWITCH BACK TO jboss ####
 USER jboss
